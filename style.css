@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+  }
+:root {
+    --mainYellow: #F29829;
+    --mainWhite: #fff;
+    --mainBlue: #3B4FBF;
+    --mainRed: #F24464;
+    --TransGreen: #0FA66E;
+    --blue:#05C7F2;
+
+}
+body {
+    font-family: "Didact Gothic", sans-serif;
+  }
+
+ /* navbar */
+    nav{
+        background-color: var(--mainWhite);
+    }
+    .nav-link{
+        font-size: 1.5rem;
+        color: var(--mainYellow);
+      }
+
+      li .active{
+        border-bottom: 0.1rem solid var(--mainYellow);
+      }
+
+      /*  */
+      .navbar-brand img {
+        width: 100px;
+       
+      }
+      .nav-button{
+        background-color: var(--mainRed);
+        color: var(--mainWhite);
+      }
+      .nav-button:hover{
+        background-color: var(--mainYellow);
+        color: white;
+      }
+      .navbar-icons i{
+        font-size: 30px;
+      }
+      .navbar-icons i:first-child{
+        color: var(--mainRed);
+      }
+      .navbar-icons i:nth-child(2){
+        color: var(--blue);
+      }
+      /*  */
+ /* navbar */
+
+/* carousel */
+        .carousel-item img{
+          height: 70dvh;
+          }
+/* carousel */
+
+/* services */
+/*  */
+        .services{
+          color: var(--mainBlue);
+        }
+        .services h1{
+          color: var(--mainYellow);
+        }
+      .services-icon i{
+        color: var(--mainRed);
+        font-size: 4rem;
+         } 
+         /*  */
+  /* services */
+
+    /* best selling*/
+    .best-selling h1{
+      color: var(--mainRed);
+    }
+      .best-selling p{
+        color: var(--blue);
+      }
+    .card{
+      cursor: pointer;
+      }
+      .card-title{
+        color: var(--mainYellow);
+      }
+      /*  */
+      .img-card img{
+        height: 150px;
+      }
+      /*  */
+     .card-body{
+      background-color: var(--mainWhite);
+     
+      }
+     .card-button{
+      top: 70%;
+      background-color: var(--mainRed);
+      color: var(--mainBlack);
+      transition: all 1s ease-in-out;
+      transform: translateX(110%);
+     }
+     .card:hover .card-button{
+      transform: translateX(0%);
+     }
+     .card-button:hover{
+      background-color: var(--mainYellow);
+      color: var(--mainBlack);
+      text-decoration: underline ;
+     }
+    .card-body .old-price{
+      text-decoration: line-through;
+    }
+     /* best selling */
+
+
+   /* footer */
+   .footer{
+    background-color: var(--mainBlue);
+   }
+
+   .footer-icon{
+    color: var(--mainYellow);
+   }
+   .footer-icon i {
+    font-size: 40px;
+   } 
+   /* footer */
