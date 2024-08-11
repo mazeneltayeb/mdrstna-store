@@ -121,10 +121,39 @@ body {
     background-color: var(--mainBlue);
    }
 
-   .footer-icon{
+   .footer-icon :first-child{
+    color: var(--mainWhite);
+   }
+   .footer-icon :nth-child(2){
+    color: var(--mainRed);
+   }
+   .footer-icon :last-child{
     color: var(--mainYellow);
    }
    .footer-icon i {
     font-size: 40px;
    } 
+   .footer img{
+    height: 120px;
+   }
    /* footer */
+   
+/* banner */
+   .banner-product{
+    min-height: 60vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(/img/tote\ bag.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+   }
+   
+   .yellow-text{
+    color: var(--mainYellow);
+   }
+
+   .dark-text {
+      font-size: 56px;
+      color: var(--mainRed);
+   }
+/* banner */
